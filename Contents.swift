@@ -3,46 +3,6 @@
 
 import Cocoa
 
-let goraKnig: String = "laby"
-let minValues = Int8.min
-let maxValues = Int8.max
-let minValue = UInt8.min
-let maxValue = UInt8.max
-let minVal = UInt16.min
-let maxVal = UInt16.max
-let minValu = Int16.min
-let maxValu = Int16.max
-let minV = UInt32.min
-let maxV = UInt32.max
-let minVs = Int32.min
-let maxVs = Int32.max
-let twoThousand: UInt16 = 2_000
-let one: UInt8 = 1
-let twoThousandAndOne = twoThousand + UInt16(one)
-
-// tuples
-
-let http404Error = (404, "Not Found")
-// http404Error имеет тип (Int, String), и равен (404, "Not Found")
-  
-let (statusCode, statusMessage) = http404Error
-print("The status code is \(statusCode)")
-// напечатает "The status code is 404"
-print("The status message is \(statusMessage)")
-// напечатает "The status message is Not Found"
-let (justTheStatusCode, _) = http404Error
-print("The status code is \(justTheStatusCode)")
-// напечатает "The status code is 404"
-print("The status code is \(http404Error.0)")
-// напечатает "The status code is 404"
-print("The status message is \(http404Error.1)")
-// напечатает "The status message is Not Found"
-let http200Status = (statusCode: 200, description: "OK")
-print("The status code is \(http200Status.statusCode)")
-// напечатает "The status code is 200"
-print("The status message is \(http200Status.description)")
-// напечатает "The status message is OK"
-
 //optionals
 
 
