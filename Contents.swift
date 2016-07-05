@@ -2,32 +2,6 @@
 
 
 import Cocoa
-
-//optionals
-
-
-let possibleNumber = "123"
-let convertedNumber = Int(possibleNumber)
-var serverResponseCode: Int? = 404
-// serverResponseCode содержит реальное Int значение 404
-serverResponseCode = nil
-// serverResponseCode теперь не содержит значения
-//В Swift nil не является указателем, а является отсутствием значения определенного типа. Устанавливаться в nil могут опционалы любого типа, а не только типы объектов.
-
-//Принудительное извлечение значения опционала
-
-if convertedNumber != nil {
-    print("convertedNumber has an integer value of \(convertedNumber!).")
-}
-
-//optional binding
-
-if let actualNumber = Int(possibleNumber) {
-    print("\'\(possibleNumber)\' has an integer value of \(actualNumber)")
-} else {
-    print("\'\(possibleNumber)\' could not be converted to an integer")
-}
-
 // ↓ ARRAYS
 
 var shoppingList: [String] = ["Eggs", "Milk"]
