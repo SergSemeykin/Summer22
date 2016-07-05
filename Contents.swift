@@ -3,16 +3,6 @@
 
 import Cocoa
 
-let maximumNumber = 100
-var currentNumber = 50
-currentNumber = 30
-var x = 1, y = 2, z = 3
-var welcomeMessage: String
-welcomeMessage = "Hello"
-print(welcomeMessage)
-var  p = 3.14
-var ST = (currentNumber) + Int(p)
-print(p)
 let goraKnig: String = "laby"
 let minValues = Int8.min
 let maxValues = Int8.max
