@@ -3,29 +3,6 @@
 
 import Cocoa
 
-// tuples
-
-let http404Error = (404, "Not Found")
-// http404Error имеет тип (Int, String), и равен (404, "Not Found")
-  
-let (statusCode, statusMessage) = http404Error
-print("The status code is \(statusCode)")
-// напечатает "The status code is 404"
-print("The status message is \(statusMessage)")
-// напечатает "The status message is Not Found"
-let (justTheStatusCode, _) = http404Error
-print("The status code is \(justTheStatusCode)")
-// напечатает "The status code is 404"
-print("The status code is \(http404Error.0)")
-// напечатает "The status code is 404"
-print("The status message is \(http404Error.1)")
-// напечатает "The status message is Not Found"
-let http200Status = (statusCode: 200, description: "OK")
-print("The status code is \(http200Status.statusCode)")
-// напечатает "The status code is 200"
-print("The status message is \(http200Status.description)")
-// напечатает "The status message is OK"
-
 //optionals
 
 
